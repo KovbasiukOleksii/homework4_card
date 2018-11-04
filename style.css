@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    background: url(fonbody.jpg);
+}
+a {
+	text-decoration: none;
+}
+.wrapper {
+	display: flex;
+	margin: 20px 0 0 0;
+	justify-content: center;
+	height: 600px;
+}
+.card {
+	width: 100%;
+    max-width: 600px;
+	display: block;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+.profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background: url(fonuser.jpg);
+	padding: 50px;
+	border-radius: 20px 20px 0 0;
+    background-size: cover;
+}
+.user_foto {
+    background: url(Schedulingsystempoweruser.png);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+	padding: 13px 13px 6px 13px;
+	border: 2px solid #d6f0fa;
+	border-radius: 50%;
+}
+.user_name {
+	display: block;
+    margin left: 50px;
+    width: 100%;
+	max-width: 250px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+}
+.twitter {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.
+.user-login {
+	margin-top: 5px;
+}
+
+.social {
+    display: flex;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+    max-width: 600px;
+	justify-content: center;
+	background: #fff;
+	padding: 50px;
+}
+
+.bottom_content {
+	display: flex;
+	flex-direction: column;
+    max-height: 80px;
+    height: 100%;
+	width: 100%;
+    min-width: 150px;
+	padding: 10px;
+    text-align: center;
+	color: #B0A6A3;
+	background: #ECE7E4;
+	padding: 10 25px;
+}
+.bottom_content:hover {
+    background-color: darkorange;
+    transition: 1s;
+}
+.social_buttom {
+	margin-right: 3px;
+}
+
+.bottom_content > span {
+	font-size: 20px;
+}
+.first_buttom {
+	border-radius: 15px 0 0 15px;
+}
+.last_buttom {
+	border-radius: 0 15px 15px 0;
+}
+.footer {
+	background: #ECE7E4;
+	padding: 50px;
+	border-radius: 0 0 15px 15px;
+    font-family: arial;
+}
+
+.follow_buttom {
+	display: flex;
+	justify-content: center;
+	background: #E25734;
+	color: #fff;
+	width: 100%;
+	padding: 15px;
+	border-radius: 15px;
+}
+.follow_buttom:hover {
+    background-color: darkorange;
+    color: #ECE7E4;
+    transition: 1s;
+}
